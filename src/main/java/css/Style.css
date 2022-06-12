@@ -1,0 +1,73 @@
+/* Menu-Bar */
+#btCom1, #btUncom1, #btSettings1{
+    -fx-background-color: #6F5CC2;
+}
+
+#btCom1:hover, #btUncom1:hover, #btSettings1:hover {
+    -fx-background-color: #7156DD;
+
+}
+
+#btCom1:pressed, #btUncom1:pressed, #btSettings1:pressed {
+    -fx-background-color: #9386cc;
+}
+
+/* Table-Edu */
+#btEdu{
+    -fx-background-color: #6F5CC2;
+    -fx-background-radius: 10;
+    -fx-text-fill: #ffffff;
+}
+
+#btEdu:hover {
+    -fx-background-color: #7156DD;
+    -fx-background-radius: 13;
+    -fx-border-radius: 10;
+    -fx-border-width: 3pt;
+    -fx-border-color: #afafaf;
+}
+
+#btEdu:pressed {
+    -fx-background-color: #9386cc;
+}
+
+/* Table-Email */
+#btEM{
+    -fx-background-color: #6F5CC2;
+    -fx-background-radius: 10;
+    -fx-text-fill: #ffffff;
+}
+
+#btEM:hover {
+    -fx-background-color: #7156DD;
+    -fx-background-radius: 13;
+    -fx-border-radius: 10;
+    -fx-border-width: 3pt;
+    -fx-border-color: #afafaf;
+}
+
+#btEM:pressed {
+    -fx-background-color: #9386cc;
+}
+
+/* Table-Teams */
+#btTeams {
+    -fx-background-color: #6F5CC2;
+    -fx-background-radius: 10;
+    -fx-text-fill: #ffffff;
+}
+
+#btTeams:hover {
+    /*
+    Problem: background radius macht unten ein paar Pixel zu wenig
+     */
+    -fx-background-color: #7156DD;
+    -fx-background-radius: 13;
+    -fx-border-radius: 10;
+    -fx-border-width: 3pt;
+    -fx-border-color: #5910C2;
+}
+
+#btTeams:pressed {
+    -fx-background-color: #9386cc;
+}
